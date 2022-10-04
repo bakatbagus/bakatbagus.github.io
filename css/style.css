@@ -53,7 +53,7 @@ fred@skyrocketlabs.com
 }
 
 .navbar {
-  background-color: purple;
+  background-color: #ff6126;
   padding: 0% !important;
 }
 
@@ -77,7 +77,7 @@ fred@skyrocketlabs.com
 .container {
   width: 900px;
   margin: auto;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .home {
@@ -281,4 +281,12 @@ div.footer-row {
 
 .teks {
   font-size: 18px !important;
+}
+
+#about {
+  color: #7e39a8;
+}
+
+#gallery {
+  color: #7e39a8;
 }
