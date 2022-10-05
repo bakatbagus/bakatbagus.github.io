@@ -1,60 +1,32 @@
-/*
-CANUCKINGTON POST STYLESHEET
-A SKYROCKET LABS FREE XHTML/CSS TEMPLATE
-http://www.skyrocketlabs.com
-fred@skyrocketlabs.com
-*/
-
-/* ARCHITECTURE */
-
-.home h1 {
-  color: #7e39a8;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.home h3 {
-  font-family: sans-serif;
-  color: #ff6126;
-  text-align: left;
-  margin-left: 10px;
-}
-
-.home p {
-  font-family: sans-serif;
-  text-align: left;
-  margin-left: 10px;
-  word-spacing: 3px;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-.visimisi p {
-  font-family: sans-serif;
-  text-align: center;
-  margin-left: 10px;
-  font-size: 30px;
-}
-
-#header {
-  width: 980px;
-  height: 110px;
-  margin: 0 auto;
-}
-
-#logo {
-  width: 400px;
-  height: 110px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #nav-bar {
   position: sticky;
   top: 0;
   z-index: 10;
-  box-shadow: 0 0 13px 0 black;
 }
 
+.navbar-nav li a:hover {
+  background-color: white;
+  color: #ff6126 !important;
+  border-radius: 10px;
+  border: 3px solid white;
+}
 .navbar {
   background-color: #ff6126;
   padding: 0% !important;
+}
+
+.navbar-brand img {
+  height: 60px;
+  width: 100px;
 }
 
 .navbar-nav li {
@@ -62,7 +34,7 @@ fred@skyrocketlabs.com
 }
 
 .navbar-nav li a {
-  color: white !important;
+  color: #fff !important;
   font-weight: 600;
   float: right;
   text-align: left;
@@ -74,72 +46,161 @@ fred@skyrocketlabs.com
   font-size: 30px;
 }
 
-.container {
-  width: 500px;
-  margin: auto;
+.navbar-toggler {
+  outline: none !important;
+}
+.card-gambar {
+  width: 330px;
+}
+#home {
   background-color: white;
+  color: #ff6126;
+  padding-top: 5%;
+}
+.top-img {
+  width: 100%;
+}
+.bottom-img {
+  width: 100%;
+}
+.promo-title {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.home {
-  text-align: center;
+#promo {
+  background-color: #ff6126;
+  color: white;
+}
+.promo-titlee {
+  font-size: 50px;
+}
+#promosi {
+  background-color: #ff6126;
+}
+.promosi-titlee {
+  background-color: #fff;
 }
 
-#about,
+#kemitraan {
+  background-color: #ff6126;
+}
+.kemitraan-title {
+  color: #ff6126;
+  background-color: #fff;
+}
+#about {
+  background-color: #ff6126;
+  color: #ff6126;
+}
+.aboutt-title {
+  background-color: #fff !important;
+}
+.beritaa-title {
+  background-color: yellow !important;
+}
+.caption {
+  font-size: 20px;
+  color: #000;
+}
+
 #gallery {
-  text-align: center;
-  margin-bottom: 25px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.col-sm-4 img {
-  height: 25vh;
-  background-size: cover;
-  border-radius: 15%;
-  margin-bottom: 40px;
-  margin-left: 30px;
+.gallery-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff6126;
+  font-size: 40px;
+  font-weight: bolder;
 }
 
-.container-fluid2 h4 {
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.container-fluid2 {
-  background-size: cover;
-  background-color: purple;
-}
-
-.nav-item a:hover {
-  color: purple !important;
-}
-
-.container-fluid2 h4 {
-  color: black;
-}
-
-.row a strong {
-  color: #9021d3;
-  font-size: 30px;
-  font-family: sans-serif;
-}
-
-.row a:hover strong {
+.card-title {
   color: #ff6126;
 }
 
-.container-fluid2 p {
-  color: black;
-  margin-left: 22px;
+.card-text-programs {
+  color: #ff6126;
+}
+
+.founder-img {
+  float: left;
+}
+
+#berita {
+  background-color: #fff;
+  color: #ff6126;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.video-title {
+  background-color: white !important;
+}
+.yt-video {
+  width: 100%;
+  height: 400px;
 }
 
 #footer {
-  background: rgba(236, 104, 23);
-  padding: 0 0 10px 0;
-  color: white;
+  background: #eaeaea;
+  padding: 0 0 30px 0;
+  color: #000;
   font-size: 14px;
 }
 
+#footer .footer-newsletter {
+  padding: 50px 0;
+  background: #ff6126;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #000;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+}
+
+#footer .footer-newsletter form input[type='email'] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type='submit'] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  margin: 3px;
+  background: yellow;
+  color: #000;
+  transition: 0.3s;
+  border-radius: 50px;
+}
+
+#footer .footer-newsletter form input[type='submit']:hover {
+  background: yellow;
+}
+
 #footer .footer-top {
-  background: rgba(236, 104, 23);
+  background: yellow;
   padding: 60px 0 30px 0;
 }
 
@@ -160,14 +221,14 @@ fred@skyrocketlabs.com
   line-height: 24px;
   margin-bottom: 0;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: #000;
 }
 
 #footer .footer-top .social-links a {
   font-size: 16px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
-  color: black;
+  background: #000;
+  color: #fff;
   line-height: 1;
   padding: 10px 0;
   margin-right: 4px;
@@ -179,15 +240,15 @@ fred@skyrocketlabs.com
 }
 
 #footer .footer-top .social-links a:hover {
-  background: black;
-  color: white;
+  background: #fff;
+  color: #ffc451;
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: #000;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -196,20 +257,42 @@ fred@skyrocketlabs.com
 .fa-location-dot {
   font-size: 20px;
 }
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #5db1f9;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
 
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
 
 #footer .footer-top .footer-links ul a {
-  color: white;
+  color: rgba(255, 255, 255, 0.75);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ff6126;
+  color: #000;
 }
 
 #footer .footer-top .footer-contact {
@@ -220,40 +303,18 @@ fred@skyrocketlabs.com
   line-height: 26px;
 }
 
-.maps i {
-  color: black !important;
-}
-
-.maps i:hover {
-  color: white !important;
-}
-
-div.footer-row {
-  background-color: rgba(236, 104, 23);
-}
-
-.footer {
-  padding: 12px 0;
-  background-color: #333;
-}
-
-.footer p {
+#footer .copyright {
   text-align: center;
-  color: whitesmoke;
+  padding-top: 30px;
 }
 
-.footer p a {
-  color: rgba(236, 104, 23);
+#footer .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #000;
 }
 
-.teks {
-  font-size: 18px !important;
-}
-
-#about {
-  color: #7e39a8;
-}
-
-#gallery {
-  color: #7e39a8;
+#footer .credits a {
+  color: #000;
 }
