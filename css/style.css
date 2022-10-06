@@ -98,12 +98,10 @@ body {
 .aboutt-title {
   background-color: #fff !important;
 }
-.beritaa-title {
-  background-color: yellow !important;
-}
+
 .caption {
   font-size: 20px;
-  color: #000;
+  color: white;
 }
 
 #gallery {
@@ -189,18 +187,18 @@ body {
   font-size: 16px;
   padding: 0 20px;
   margin: 3px;
-  background: yellow;
+  background: #ff6126;
   color: #000;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-newsletter form input[type='submit']:hover {
-  background: yellow;
+  background: #ff6126;
 }
 
 #footer .footer-top {
-  background: yellow;
+  background: #ff6126;
   padding: 60px 0 30px 0;
 }
 
@@ -241,7 +239,7 @@ body {
 
 #footer .footer-top .social-links a:hover {
   background: #fff;
-  color: #ffc451;
+  color: #ff6126;
   text-decoration: none;
 }
 
@@ -269,7 +267,7 @@ body {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5db1f9;
+  color: #ff6126;
   font-size: 18px;
   line-height: 1;
 }
